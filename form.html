@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><Form></Form></title>
+</head>
+<body>
+    
+<h1>Formlar</h1>
+
+<form action="result.html" method="get">
+
+<div>
+
+    <label for="name">Isim</label>
+    <input type="text" id="name" name="kullanici adi"  placeholder="ad gir">
+<br>
+    <label for="lastname">soyad</label>
+    <input type="text" id="lastname" name="kullanici soyadi" placeholder="soyad gir">
+
+
+
+</div>
+
+<div>
+    <label for="pass">pasword</label>
+    <input type="password" name="sif" id="pass" placeholder="gp al">
+
+
+<!-- </div>
+    <div>
+    <label for="mail">email</label>
+    <input type="email" name="email" id="mail">
+    </div> -->
+
+<div>
+    <p>gender</p>
+    <label for="gender1">male</label>
+    <input type="radio" name="cinsiyet" id="gender1" value="erkek">
+    <label for="gender2">female</label>
+    <input type="radio" name="cinsiyet" id="gender2" value="kadin">
+
+
+
+</div>
+
+
+<div>
+    <span>favori hayvanlar</span>
+    <label for="animal">PANDA</label>
+    <input type="checkbox" name="favori hayvanlar" id="animal" value="PANDA">
+
+    <label for="animal2">BALIK</label>
+    <input type="checkbox" name="favori hayvanlar" id="animal2" value="BALIK">
+
+    <label for="animal3">AT</label>
+    <input type="checkbox" name="favori hayvanlar" id="animal3" value="AT">
+
+</div>
+
+<div>
+
+<label for="age">age</label>
+<input type="number" id="age" name="kullanici yasi" min="18" max="50">
+
+</div>
+
+<div>
+<label for="ara">aranacak kelime</label>
+<input type="search" name="aranan kelime" id="ara">
+
+</div>
+
+<div>
+<label for="color">renk</label>
+<input type="color" id="color" name="renk">
+
+</div>
+
+
+<div>
+    <label for="sw">tatli</label>
+<select name="tatli" id="sw">
+    <option value="sutlac">sutlac</option>
+    <option value="baklava">baklava</option>
+    <option value="ke;kul">ke;kul</option>
+    <option value="mmmm">mmmm</option>
+
+
+
+</select>
+
+    
+</div>
+
+<div>
+    <label for="sw">tatli</label>
+<select name="tatli" id="sw">
+    <option value="sutlac">sutlac</option>
+    <option value="baklava">baklava</option>
+    <option value="ke;kul">ke;kul</option>
+    <option value="mmmm">mmmm</option>
+
+
+
+</select>
+
+<DIv>
+    <label for="text">yorum yaz</label><br>
+    <TExtarea name="yorum" id="text" style="resize: none;"></TExtarea>
+
+
+</DIv>
+
+<div>
+    <label for="brows">hangi browser</label>
+    <input type="text" name="browser" id="brows" list="browser">
+
+    <datalist id="browser">
+        <option value="chrome"></option>
+        <option value="safari"></option>
+        <option value="opera"></option>
+        <option value="edge"></option>
+    </datalist>
+
+</div>
+
+    
+</div>
+
+<br><br><br>
+    <input type="submit" value="gonder">
+
+
+</form>
+
+
+
+</body>
+</html>
