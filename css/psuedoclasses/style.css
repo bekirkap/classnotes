@@ -1,0 +1,86 @@
+ul.pseudo li:first-child{
+
+color: aqua;
+
+}
+ul.pseudo li:last-child{
+
+color: gray;
+
+}
+ul.pseudo{
+    font-family: "Climate Crisis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "YEAR" 1979;
+    /* list-style-position: inside; */
+}
+ul.pseudo li:nth-child(3){
+
+    color: red;
+    
+}
+ul.pseudo li:nth-child(even){
+        background-color: bisque;
+}
+ul.pseudo li:nth-child(odd){
+        background-color: orange;
+}
+ul.pseudo li:hover{
+        opacity: 0.5;
+        
+}
+ul.pseudo li:active{
+        background-color: gray;
+        
+}
+input:focus{
+    background-color: gray;
+}
+
+nav.link a:link{
+    color: blue;
+}
+nav.link a:visited{
+    color: red;
+}
+nav.link a:active{
+    color: black;
+}
+nav.cv a{
+    text-decoration: none;
+    border: 1px solid rebeccapurple;
+}
+nav.cv a:hover{
+    background-color: red;
+}
+nav.cv a:hover span{color: blue;}
+.p-elements::first-line{
+    color: aqua;
+    background-color: black;
+}
+.p-elements::first-letter{
+    font-family: "Climate Crisis", sans-serif;
+}
+ul.beforeafter li{
+    list-style-type: none;
+    margin: 0.5rem;
+    width: 40%;
+    border-radius: 10px;
+    background-color: gray;
+    /* text-align: center; */
+    align-items: center;
+    display: ;
+     
+
+}
+ul.beforeafter li::before{
+    content: '🏁';
+    margin: 10px;
+}
+ul.beforeafter li:nth-child(3)::after{
+    content: '🛹';
+    margin: 10px;
+}

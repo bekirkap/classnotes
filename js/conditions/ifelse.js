@@ -118,15 +118,15 @@
 // }
 
 
-// function square(ali=5){
-//     return ali**2
+function square(ali=5){
+    return ali**2
 
-// }
+}
 
-// const bekir = square()
-// console.log(bekir);
-// const onur = square(7)
-// console.log(onur);
+const bekir = square()
+console.log(bekir);
+const onur = square(7)
+console.log(onur);
 
 
 // const bekir = function(){
