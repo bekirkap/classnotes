@@ -1,0 +1,34 @@
+@import './themes2.css';
+
+
+body{
+    background-color: var(--white);
+    color: var(--white);
+    font-family: var(--ff-workbench);
+}
+h1{
+    background-color: var(--blue);
+}
+p{
+    background-color: var(--blue-dark);
+    font-size: var(--fs--lg);
+    color: var(--green1);
+}
+.container{
+    border: 2px solid green;
+    height: 250px;
+    width: 500px;
+     
+}
+.dark{
+    width: 150px;
+    height: 50%;
+    background-color: var(--turuncu);
+}
+.light{
+    width: 150px;
+    height: 50%;
+    background-color: var(--yesil);
+
+}
+

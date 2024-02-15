@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+
+:root{
+    /*colors*/
+    --white: #ababab;
+    --blue: #3e6ab0;
+    --blue-dark: #0c63ef;
+    --yesil: #63f975;
+    --turuncu: #e58429;
+    /*FONTS*/
+
+    --ff-workbench: "Protest Revolution", sans-serif;
+    /*fontsize*/
+    --fs--lg:1.4rem;
+    --fs--xl:2rem;
+    --fs--xxl:3rem;
+
+    /*renkpaleti*/
+    --green1: #9FC131;
+
+}
